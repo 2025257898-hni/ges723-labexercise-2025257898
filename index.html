@@ -816,5 +816,48 @@ body.ges723-labels-hidden .ges723-pump-text {
     <script src="ges723-enhancements.js"></script>
 <script src="ges723-final-fixes.js"></script>
 <script src="ges723-label-toggle.js"></script>
+
+<!-- GES723 - Historical map data attribution -->
+<div id="ges723-attribution" role="note">
+    Data: R. Wilson, digitised from J. Snow (1854);
+    Basemap &copy;
+    <a href="https://www.openstreetmap.org/copyright"
+       target="_blank"
+       rel="noopener noreferrer">
+       OpenStreetMap contributors
+    </a>
+</div>
+
+<style>
+#ges723-attribution {
+    position: fixed;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1500;
+    max-width: calc(100vw - 24px);
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18);
+    font: 11px Arial, sans-serif;
+    color: #344054;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#ges723-attribution a {
+    color: #17617a;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    #ges723-attribution {
+        bottom: 5px;
+        font-size: 9px;
+        padding: 4px 8px;
+    }
+}
+</style>
 </body>
 </html>
