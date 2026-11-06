@@ -1,0 +1,19 @@
+GES723 - PART B TASK 3
+Student ID: 2025257898
+Generator: qgis2web / Leaflet
+Created: 2026-11-06T18:40:49.594196
+Output: C:\Users\Hazrul Nizam Ismail\OneDrive - Malaysian Communications and Multimedia Commission\Documents\04_UiTM\05_Courses\GES723_Geovisualization\01_Assignment\GES723_LabExercise_2025257898\web
+Total deaths: 489.0
+Pumps: 8
+Heatmap included: True
+Files created: 68
+
+Appearance: Expanded layers list
+Extent: Fit to vector layers extent
+Highlight on hover: Enabled
+Scale bar: Enabled
+Measure tool: Metric
+Minify GeoJSON: Enabled
+
+Publishing target: GitHub Pages
+Upload all contents of the web folder.
