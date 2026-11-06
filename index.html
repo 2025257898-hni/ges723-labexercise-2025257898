@@ -242,7 +242,14 @@ body.ges723-labels-hidden .ges723-pump-text {
             zoomControl:false, maxZoom:28, minZoom:1
         })
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        
+		map.attributionControl.addAttribution(
+		    'Data: R. Wilson, digitised from J. Snow (1854); ' +
+		    'Basemap &copy; ' +
+		    '<a href="https://www.openstreetmap.org/copyright" ' +
+		    'target="_blank" rel="noopener noreferrer">' +
+		    'OpenStreetMap contributors</a>'
+		);
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         // remove popup's row if "visible-with-data"
         function removeEmptyRowsFromPopupContent(content, feature) {
